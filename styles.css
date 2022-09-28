@@ -8,14 +8,43 @@ Selects all image tags and makes them 500px;
 
 img {
   width: 500px;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display:inline-flex
+margin: auto;
 }
 
 .gallery-container {
   /* add styles */
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  width: 75%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background-color: navajowhite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: black;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+		background-color: #55608f;
+}
+
+tbody {
+  background-color: rgba(255,255,255,0.2);
 }
